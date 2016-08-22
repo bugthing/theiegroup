@@ -3,6 +3,18 @@ Battle Space Ships
 
 Coding challange based on Battle Ships.
 
+Install by clone this repo and running:
+
+    $ bundle
+
+Play the game like so:
+
+    $ ./bin/game.rb
+
+Run the test like so:
+
+    $ rspec
+
 ----
 
 There is a player with a spaceship at position 0 along an axis, and there is an alien at some unknown initial position x_0 on that axis. 

@@ -5,7 +5,6 @@ require_relative '../config/setup'
 puts 'Welcome to the game'
 
 game = Game.new
+until game.won? { game.initiate_turn! }
 
-#until game.won? do
-
-#end
+puts 'HIT! - the alian is dead'
