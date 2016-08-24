@@ -1,3 +1,5 @@
+require 'spaceship'
+
 class Player
   attr_accessor :position
   attr_reader :spaceship

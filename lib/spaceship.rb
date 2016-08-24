@@ -1,3 +1,5 @@
+require 'trajectory'
+
 class Spaceship
   attr_writer :nozzle_angle
   attr_reader :strike_point
@@ -7,7 +9,6 @@ class Spaceship
   end
 
   def strike_point
-    # TODO: Fillin crazy math
-    @nozzle_angle
+    Trajectory.new(angle: @nozzle_angle, velocity: 40, gravity: 9.81).distance.to_i
   end
 end

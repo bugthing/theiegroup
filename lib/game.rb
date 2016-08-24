@@ -1,3 +1,6 @@
+require 'player'
+require 'alian'
+
 class Game
   attr_reader :player, :alian
 
